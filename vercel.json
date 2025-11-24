@@ -1,8 +1,14 @@
- {
-   "rewrites": [
-     {
-       "source": "/api/(.*)",
-       "destination": "linkern.onrender.com"
-     }
-   ]
- }
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://linkern.onrender.com/api/$1"
+    },
+    {
+      "source": "/l/:shortId",
+      "destination": "https://linkern.onrender.com/l/:shortId"
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}
