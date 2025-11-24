@@ -5,15 +5,12 @@
       "destination": "https://linkern.onrender.com/api/$1"
     },
     {
+      "source": "/l/:shortId",
+      "destination": "https://linkern.onrender.com/l/:shortId"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
-    }
-  ],
-  "redirects": [
-    {
-      "source": "/l/:shortId",
-      "destination": "https://linkern.onrender.com/l/:shortId",
-      "statusCode": 307
     }
   ],
   "cleanUrls": true,
