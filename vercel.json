@@ -1,8 +1,8 @@
-// {
-//   "rewrites": [
-//     {
-//       "source": "/api/(.*)",
-//       "destination": "linkern.onrender.com"
-//     }
-//   ]
-// }
+ {
+   "rewrites": [
+     {
+       "source": "/api/(.*)",
+       "destination": "linkern.onrender.com"
+     }
+   ]
+ }
