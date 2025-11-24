@@ -20,24 +20,3 @@
   "cleanUrls": true,
   "trailingSlash": false
 }
-
-
-
-// {
-//   "rewrites": [
-//     {
-//       "source": "/api/(.*)",
-//       "destination": "https://linkern.onrender.com/api/$1"
-//     }
-//   ],
-//   "redirects": [
-//     {
-//       "source": "/l/:shortId",
-//       "destination": "https://linkern.onrender.com/l/:shortId",
-//       "permanent": false,
-//       "statusCode": 307
-//     }
-//   ],
-//   "cleanUrls": true,
-//   "trailingSlash": false
-// }
