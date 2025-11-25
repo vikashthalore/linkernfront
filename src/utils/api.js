@@ -1,16 +1,14 @@
-// src/utils/api.js
 import axios from "axios";
+import store from "../store";
 
-// Create instance
 const api = axios.create({
   baseURL: "/api",
   withCredentials: true
 });
 
-// TOKEN ADDER — store ko lazily load karo (NO top-level import)
 api.interceptors.request.use((config) => {
-  const store = require("../store").default;   // ← FIX: dynamic import
-  const token = store.getState()?.user?.token;
+  const state = store.getState();
+  const token = state.user?.token;
 
   if (token) {
     config.headers.Authorization = `Bearer ${token}`;
@@ -25,6 +23,7 @@ api.interceptors.request.use((config) => {
 });
 
 export default api;
+
 
 
 // //////////////////////
