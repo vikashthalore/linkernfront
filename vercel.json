@@ -5,8 +5,12 @@
       "destination": "https://linkern.onrender.com/api/:path*"
     },
     {
-      "source": "/l/:shortId*",
-      "destination": "https://linkern.onrender.com/l/:shortId*"
+      "source": "/l/:shortId",
+      "destination": "https://linkern.onrender.com/l/:shortId"
+    },
+    {
+      "source": "/l/:shortId/",
+      "destination": "https://linkern.onrender.com/l/:shortId"
     },
     {
       "source": "/(.*)",
