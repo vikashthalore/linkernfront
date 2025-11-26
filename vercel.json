@@ -6,7 +6,7 @@
     },
     {
       "source": "/l/:linkId",
-      "destination": "/index.html"
+      "destination": "/l/:linkId"  
     },
     {
       "source": "/(.*)",
