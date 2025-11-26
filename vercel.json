@@ -6,11 +6,7 @@
     },
     {
       "source": "/l/:linkId",
-      "destination": "https://linkern.onrender.com/l/:linkId"
-    },
-    {
-      "source": "/l/:linkId/",
-      "destination": "https://linkern.onrender.com/l/:linkId"
+      "destination": "/index.html"
     },
     {
       "source": "/(.*)",
