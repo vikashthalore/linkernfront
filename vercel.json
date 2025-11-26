@@ -6,7 +6,7 @@
     },
     {
       "source": "/l/:linkId",
-      "destination": "https://linkern-kappa.vercel.app/api/links/:linkId"
+      "destination": "/index.html"
     },
     {
       "source": "/(.*)",
@@ -14,3 +14,4 @@
     }
   ]
 }
+
