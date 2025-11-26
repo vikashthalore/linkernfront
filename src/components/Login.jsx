@@ -106,7 +106,13 @@ const Login = () => {
       .unwrap()
       .then((res) => {
         toast.success("OTP sent successfully!");
-        if (res?.otp) toast(`Dev OTP: ${res.otp}`, { icon: "Lock" });
+    
+        // ye line se screen me login popup me otp show hoti hai
+
+        // if (res?.otp) toast(`Dev OTP: ${res.otp}`, { icon: "Lock" });
+
+
+        //  /////////////
       })
       .catch((err) => {
         toast.error(err.message || "Failed to send OTP");
@@ -118,7 +124,13 @@ const Login = () => {
       .unwrap()
       .then((res) => {
         toast.success("OTP sent successfully!");
-        if (res?.otp) toast(`Dev OTP: ${res.otp}`, { icon: "Lock" });
+
+        // ye line se screen me popup me otp dikhti hai
+
+
+        // if (res?.otp) toast(`Dev OTP: ${res.otp}`, { icon: "Lock" });
+
+        // //////////////////
       })
       .catch((err) => {
         toast.error(err.message || "Failed to send OTP");
