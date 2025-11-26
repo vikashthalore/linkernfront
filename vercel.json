@@ -5,8 +5,8 @@
       "destination": "https://linkern-kappa.vercel.app/api/:path*"
     },
     {
-      "source": "/l/:path*",
-      "destination": "https://linkern-kappa.vercel.app/l/:path*"
+      "source": "/l/:linkId",
+      "destination": "/index.html"
     },
     {
       "source": "/(.*)",
@@ -14,4 +14,5 @@
     }
   ]
 }
+
 
