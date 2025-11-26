@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://linkern.onrender.com/api/:path*"
+      "destination": "https://linkern-kappa.vercel.app/api/:path*"
     },
     {
       "source": "/l/:linkId",
@@ -14,3 +14,4 @@
     }
   ]
 }
+
