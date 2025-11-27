@@ -5,8 +5,8 @@
       "destination": "https://linkern.onrender.com/api/:path*"
     },
     {
-      "source": "/l/:path*",
-      "destination": "https://linkern.onrender.com/l/:path*"
+      "source": "/l/:linkId",
+      "destination": "/index.html"
     },
     {
       "source": "/(.*)",
@@ -14,4 +14,5 @@
     }
   ]
 }
+
 
