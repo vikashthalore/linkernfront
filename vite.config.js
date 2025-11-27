@@ -9,7 +9,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'https://linkern-kappa.vercel.app',
+        target: 'https://linkern.onrender.com',
         changeOrigin: true,
         secure: false
       }
