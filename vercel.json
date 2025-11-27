@@ -9,12 +9,9 @@
       "destination": "https://linkern.onrender.com/l/:path*"
     },
     {
-      "source": "/l/:linkId",
-      "destination": "/index.html"
-    },
-    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
   ]
 }
+
