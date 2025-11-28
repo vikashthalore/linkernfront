@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Clock, ChevronDown, ChevronRight, Loader2, User, LogIn } from "lucide-react";
 import { useSelector } from "react-redux";
+import { Helmet } from 'react-helmet';
 
 const AdPage = ({
   page,
@@ -75,6 +76,9 @@ const AdPage = ({
 
   return (
     <>
+    <Helmet>
+        <meta name='admaven-placement' content='BqjwFqja4' />
+      </Helmet>
       {/* TOP NAVBAR - LOGIN + USER INFO */}
       <div className="fixed top-0 left-0 right-0 bg-gradient-to-r from-indigo-600 to-purple-700 text-white shadow-2xl z-50">
         <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
