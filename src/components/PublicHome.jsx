@@ -34,7 +34,7 @@ const PublicHome = () => {
             <span className="text-indigo-600"> Every Click</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Create personalized links, share them on your website, and earn ₹1 for every page view. 
+            Create personalized links, share them on your website, and earn $ for every page view. 
             Your visitors go through engaging content before reaching their destination.
           </p>
           <div className="space-x-4">
